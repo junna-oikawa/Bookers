@@ -1,3 +1,109 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0.83em 0;
+}
+
+p, ol, ul, td {
+  margin: 33px;
+}
+
+p {
+
+}
+
+table {
+  width: 70%;
+  border-spacing: 2px;
+}
+
+td {
+  padding: 2px;
+}
+
+#notice {
+  color: green;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.book_title {
+  display: block;
+  width: 40%;
+  height: 20px;
+}
+
+.book_body {
+  display: block;
+  width: 40%;
+  height: 100px;
+}
+
+#error_explanation {
+  width: 600px;
+  border: 2px solid #c00;
+  background-color: #f0f0f0;
+  padding: 0;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+#error_explanation > h2 {
+  background-color: #c00;
+  color: white;
+  margin: 0;
+  padding: 7px;
+}
+
+#error_explanation > li {
+  margin: 15px;
+}
+
+.field_with_errors > label {
+  background-color: #c00;
+  border: 2px solid #c00;
+}
+
+.field_with_errors > .book_title,
+.field_with_errors > .book_body{
+  border: 2px solid #c00;
+}
